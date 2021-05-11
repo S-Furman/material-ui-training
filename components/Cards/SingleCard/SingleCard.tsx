@@ -6,20 +6,20 @@ import {
   Typography,
 } from "@material-ui/core";
 
-const CountryCard = (props) => {
+const SingleCard = (props) => {
   return (
     <Grid item xs={12} sm={6} md={3}>
       <Card>
         <CardMedia
           style={{ height: 0, paddingTop: "56%" }}
-          image="https://bi.im-g.pl/im/18/9c/18/z25808152V,Opustoszale-centrum-Katowic-w-czasie-wielkiej-naro.jpg"
+          image={props.flag}
         ></CardMedia>
         <CardContent>
-          <Typography component="p">siema</Typography>
+          <Typography component="p">{props.name}</Typography>
         </CardContent>
       </Card>
     </Grid>
   );
 };
 
-export default CountryCard;
+export default SingleCard;
