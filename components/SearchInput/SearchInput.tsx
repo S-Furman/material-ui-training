@@ -29,7 +29,6 @@ const SearchInput = () => {
         }
         placeholder="Search for a country..."
       />
-      <p>{searchCtx.searchedItem}</p>
     </Grid>
   );
 };
