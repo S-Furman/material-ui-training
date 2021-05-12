@@ -8,7 +8,7 @@ const useStyles = makeStyles((theme) => ({
   },
   select: {
     padding: 10,
-    backgroundColor: "#FFFFFF",
+    backgroundColor: theme.palette.background.default,
   },
 }));
 

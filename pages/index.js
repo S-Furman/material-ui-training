@@ -1,4 +1,4 @@
-import { Container, Grid } from "@material-ui/core";
+import { Container, Paper, Grid } from "@material-ui/core";
 
 import SelectInput from "../components/SelectInput/SelectInput";
 import SearchInput from "../components/SearchInput/SearchInput";

@@ -5,8 +5,8 @@ import { SearchContext } from "../../src/store/SearchContext";
 
 const useStyles = makeStyles((theme) => ({
   input: {
-    backgroundColor: "#FFFFFF",
     padding: "10px",
+    backgroundColor: theme.palette.background.default,
   },
 }));
 
